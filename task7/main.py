@@ -1,17 +1,3 @@
-"""
-main.py
-
-Main program: imports the LogisticRegression class from
-logistic_regression.py and uses it to train/test on the
-Task 4 dataset — the 4D XOR truth table.
-
-Note: Plain (linear) Logistic Regression cannot perfectly separate
-XOR-type data because XOR is not linearly separable. This is expected
-and demonstrated below. To fix this with logistic regression itself,
-you'd need to engineer non-linear features (e.g. products of inputs).
-Both the plain and the feature-engineered versions are shown.
-"""
-
 import numpy as np
 from logistic_regression import LogisticRegression, accuracy
 
